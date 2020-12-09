@@ -173,6 +173,9 @@ firmware_directories /vendor/firmware_mnt/image/
 /dev/qg                   0660  system     system
 /dev/qg_battery           0660  system     system
 
+# DT2W
+/dev/input/event3         0666  system     system
+
 # Elliptic
 /dev/elliptic0            0644   system       system
 /dev/elliptic1            0644   system       system
