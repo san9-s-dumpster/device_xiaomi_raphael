@@ -121,6 +121,10 @@ on early-boot
     start vendor.sensors
 
 on boot
+    # Allow system to modify dc dimming state
+    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_bl
+    chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_bl
+
     chown system system /sys/class/thermal/thermal_message/sconfig
 
 on property:sys.boot_completed=1
