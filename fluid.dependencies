@@ -1,0 +1,38 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "yaap/kernel_xiaomi_sm8150",
+        "target_path":  "kernel/xiaomi/raphael",
+        "branch":       "eleven"
+    },
+    {
+        "remote":       "fluid-devices",
+        "repository":   "vendor_xiaomi_raphael",
+        "target_path":  "vendor/xiaomi/raphael",
+        "branch":       "fluid-11"
+    },
+    {
+        "remote":       "github",
+        "repository":   "yaap/hardware_qcom-caf_sm8150_audio",
+        "target_path":  "hardware/qcom-caf/sm8150/audio",
+        "branch":       "eleven"
+    },
+    {
+        "remote":       "github",
+        "repository":   "yaap/hardware_qcom-caf_sm8150_display",
+        "target_path":  "hardware/qcom-caf/sm8150/display",
+        "branch":       "eleven"
+    },
+    {
+        "remote":       "github",
+        "repository":   "yaap/hardware_qcom-caf_sm8150_media",
+        "target_path":  "hardware/qcom-caf/sm8150/media",
+        "branch":       "eleven"
+    },
+    {
+        "remote":       "github",
+        "repository":   "yaap/vendor_qcom_opensource_display-commonsys-intf",
+        "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
+        "branch":       "eleven"
+    }
+]
